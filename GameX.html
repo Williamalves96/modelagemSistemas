@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game X - Loja de Jogos</title>
+    <link rel="stylesheet" href="GameX.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Game X</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Jogos Digitais</a></li>
+                <li><a href="#">Jogos Físicos</a></li>
+                <li><a href="#">Jogos para PC</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        
+        <div class="product">
+            <h3>God of War</h3>
+            <p class="price">R$149,99</p>
+            <P class="prince">R$99,99</P>
+            <p>Jogo eletrônico de 2018.</p>
+            <button>Comprar</button>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Game X - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("price").addEventListener("input", function() {
+            document.getElementById("price-value").textContent = this.value;
+        });
+    </script>
+</body>
+</html>
